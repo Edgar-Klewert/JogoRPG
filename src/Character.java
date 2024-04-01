@@ -2,15 +2,15 @@ import java.util.Random;
 import java.util.Scanner;
 
 class Character {
-    String nome;
-    int pv;
-    int forca;
-    int constituicao;
-    int agilidade;
-    int destreza;
-    Weapon weapon;
-    Armor armor;
-    boolean defesaDobrada;
+    private String nome;
+    private int pv;
+    private int forca;
+    private int constituicao;
+    private int agilidade;
+    private int destreza;
+    private Weapon weapon;
+    private Armor armor;
+    private boolean defesaDobrada;
 
     public Character(String nome) {
         this.nome = nome;
