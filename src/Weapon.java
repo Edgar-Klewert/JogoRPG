@@ -1,6 +1,6 @@
 class Weapon {
-    String categoria;
-    int constanteDano;
+    private String categoria;
+    private int constanteDano;
 
     public Weapon(String categoria, int constanteDano) {
         this.categoria = categoria;
